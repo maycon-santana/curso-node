@@ -2,4 +2,8 @@ Projeto Inicial
 
 Dependências Instaladas
 1 - Express 
+  1.1 Execultar o comando para rodar o projeto 'node src/index.js'
 2 - Nodemon npm i -D nodemon 
+  2.1 Execultar o comando para rodar o projeto 'npx nodemon src/index.js'
+  2.2 No arquivo package.json no scripts adione "start": "nodemon src/index.js"
+  2.3 Para iniciar o projeto 'npm start'
