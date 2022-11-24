@@ -2,13 +2,15 @@ const express = require('express')
 const app = express()
 
 app.get('/projects', function(request, response) {
+    const {title, owner, page} = request.query
+    console.log(title, owner, page)
+
     return response.json([
         'Projeto 1',
         'Projeto 2',
         'Projeto 3'
     ])
 })
-
 
 app.post('/projects', function(request, response) {
     return response.json([
