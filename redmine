@@ -7,3 +7,8 @@ Dependências Instaladas
   2.1 Execultar o comando para rodar o projeto 'npx nodemon src/index.js'
   2.2 No arquivo package.json no scripts adione "start": "nodemon src/index.js"
   2.3 Para iniciar o projeto 'npm start'
+
+Projeto MyProject
+1 - UUID
+  1.1 Execultar o comando npm install uuid
+  1.2 Adicionar o import const { v4: uuidv4 } = require('uuid')
