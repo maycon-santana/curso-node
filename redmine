@@ -32,6 +32,7 @@ Foi adicionado o pacote tsconfig-paths para também ser instalado. Esse pacote s
 Criar o arquivo "tsconfig.json" que conterá as configurações do Typescript, com o comando:
 
 npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
+
 Em resumo, os parâmetros passados são:
 
 rootDir: É aqui que o TypeScript procura nosso código.
@@ -179,3 +180,9 @@ npm run dev
 yarn dev
 
 fonte https://www.aluiziodeveloper.com.br/criar-aplica%C3%A7%C3%A3o-node-js-com-typescript/
+
+2 Passo
+https://www.aluiziodeveloper.com.br/eslint/
+
+3 Passo
+https://www.aluiziodeveloper.com.br/prettier/
